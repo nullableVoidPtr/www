@@ -7,6 +7,7 @@
 				color: #fff8e7;
 				color-scheme: dark;
 			}
+
 			a {
 				color: aliceblue;
 			}
@@ -17,17 +18,31 @@
 				height: 1.7rem;
 				border-radius: 0.25rem;
 			}
+			a:has(> .flag) {
+				text-decoration: none;
+			}
+
+			main {
+				width: 60vw;
+				margin: 0 auto;
+			}
+
 			.buttons img {
 				width: 88px;
 				height: 31px;
 				image-rendering: pixelated;
+			}
+
+			footer {
+				margin: 2rem auto;
+				text-align: center;
 			}
 		</style>
 	</head>
     <body>
 		<main>
 			<h1>avery (artemis)</h1>
-			<h3>they/them</h3>
+			<h3>it/they</h3>
 			<a target="_blank" href="https://en.pronouns.page/terminology#nonbinary">
 				<svg class="flag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
 					<path fill="#2D2D2D" d="m0,0h300v200H0"/>
@@ -52,7 +67,7 @@
 			<p><b>Twitter (X):</b> <a target="_blank" href="https://x.com/nullableVoidPtr">@nullableVoidPtr</a></p>
 			<p><b>Instagram:</b> <a target="_blank" href="https://instagram.com/nullableVoidPtr">@nullableVoidPtr</a></p>
 			<p><b>GitHub:</b> <a target="_blank" href="https://github.com/nullableVoidPtr">@nullableVoidPtr</a></p>
-			<p><b>Email:</b> <code>sprintf("%s%c%s", "them", 0x40, DOMAIN)</code></p>
+			<p><b>Email:</b> <code style="font-size: 1rem;">sprintf("%s%c%s", "them", 0x40, DOMAIN)</code></p>
 			<h2>friends</h2>
 			<div class="buttons">
 				<a href="https://nullablevo.id.au"><img src="/images/button.png" alt="nullablevo.id.au"></a>
